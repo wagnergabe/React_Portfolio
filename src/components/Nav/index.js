@@ -9,7 +9,7 @@ function Nav(props) {
                 <li className="navItem"><a href="#" className="navLink">About</a></li>
                 <li className="navItem"><a href="#" className="navLink">Portfolio</a></li>
                 <li className="navItem"><a href="#" className="navLink">Contact</a></li>
-                <li className="navItem"><a href="#" className="navLink">Resume</a></li>
+                <li className="navItem"><a href="#" className="navLink">Contact</a></li>
             </ul>
         </nav>
     )

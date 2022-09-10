@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+ font-size: 1.6rem; 
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #946B2D;
+}
+
+/*Navigation Componenet*/
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 8vh;
+  background: #000863
+}
+
+.brand {
+  text-transform: uppercase;
+}
+
+.navMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem; 
+}
