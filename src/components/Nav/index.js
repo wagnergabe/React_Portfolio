@@ -2,10 +2,17 @@ import React, {useState} from "react";
 
 function Nav() {
     const [active, setActive] = useState('navMenu')
+    const [toggleIcon, setToggleIcon] = useState('hamburger')
         const hamburgerToggle = () => {
             active === 'navMenu'
             ? setActive('navMenu navActive')
             : setActive('navMenu');
+
+            //ToggleIcon
+
+            toggleIcon === 'hamburger'
+            ? setToggleIcon('hamburger toggle')
+            : setToggleIcon('hamburger')
         };
 
 
@@ -20,7 +27,7 @@ function Nav() {
                 <li className="navItem"><a href="#" className="navLink">Portfolio</a></li>
                 <li className="navItem"><a href="#" className="navLink">Contact</a></li>
             </ul>
-            <div onClick ={hamburgerToggle} className="hamburger">
+            <div onClick ={hamburgerToggle} className={toggleIcon}>
                 <div className="line1"></div>
                 <div className="line2"></div>
                 <div className="line3"></div>

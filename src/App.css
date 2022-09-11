@@ -42,7 +42,8 @@ a {
   width: 2.5rem;
   height: 0.2rem;
   margin: 0.4rem;
-  background-color: #946B2D;;
+  background-color: #946B2D;
+  transition: 0.4s ease-in;
 }
 
 .hamburger {
@@ -61,12 +62,24 @@ a {
     width: 50%;
     height: 93vh;
     background: #000863;
-    flex-direction: column0;
+    flex-direction: column;
     transform: translateX(100%);
-    transition: 
+    transition: 0.5s ease-in;
   }
   }
 
   .navActive {
     transform: translateX(0);
+  }
+
+  /* Toggler animation */
+
+  .toggle .line1{
+    transform: rotate(-45deg) translate(-8px, 4px);
+  }
+  .toggle .line2{
+    opacity: 0;
+  }
+  .toggle .line3{
+    transform: rotate(45deg) translate(-8px, -5px);
   }
