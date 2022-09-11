@@ -51,6 +51,8 @@ a {
   display: none;
   }
 
+  /*Screen sizes*/
+
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
@@ -81,5 +83,7 @@ a {
     opacity: 0;
   }
   .toggle .line3{
-    transform: rotate(45deg) translate(-8px, -5px);
+    transform: rotate(45deg) translate(-8px, -4px);
   }
+
+  /*animation tutorial source: https://www.youtube.com/watch?v=ZJZVCg2lXSc */
