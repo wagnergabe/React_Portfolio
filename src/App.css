@@ -17,7 +17,7 @@ a {
   color: #946B2D;
 }
 
-/*Navigation Componenet*/
+/*Navigation Component*/
 
 .nav{
   display: flex;
@@ -36,4 +36,15 @@ a {
   align-items: center;
   justify-content: space-around;
   gap: 3rem; 
+}
+
+.hamburger div {
+  width: 2.5rem;
+  height: 0.2rem;
+  margin: 0.4rem;
+  background-color: #946B2D;;
+}
+
+.hamburger {
+  
 }
