@@ -46,5 +46,27 @@ a {
 }
 
 .hamburger {
-  
-}
+  cursor: pointer;
+  display: none;
+  }
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .navMenu {
+    position: fixed;
+    top: 7vh;
+    right: 0;
+    width: 50%;
+    height: 93vh;
+    background: #000863;
+    flex-direction: column0;
+    transform: translateX(100%);
+    transition: 
+  }
+  }
+
+  .navActive {
+    transform: translateX(0);
+  }
