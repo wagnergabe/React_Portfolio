@@ -17,7 +17,7 @@ const About = () => {
         <div className='container about-page'>
             <div className='text-zone'>
         <h1> About </h1>
-        <p>about me</p>
+        <p>Soon to be graduate of the University of Minnesota’s Full-Stack Web Development Bootcamp Program</p>
         </div>
 
         <div className="stage-cube-cont">
