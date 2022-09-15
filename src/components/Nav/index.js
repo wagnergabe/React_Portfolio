@@ -1,4 +1,7 @@
+
 import React, {useState} from "react";
+import { Link } from 'react-router-dom'
+
 
 function Nav() {
     const [active, setActive] = useState('navMenu')
@@ -22,10 +25,10 @@ function Nav() {
                 Gabriel Wagner
                 </a>
             <ul className={active}>
-                <li className="navItem"><a href="#" onClick={() => setActiveNav('#home')} className="navLink">Home</a></li>
-                <li className="navItem"><a href="#about" onClick={() => setActiveNav('#about')} className="navLink">About</a></li>
-                <li className="navItem"><a href="#portfolio" onClick={() => setActiveNav('#portfolio')} className="navLink">Portfolio</a></li>
-                <li className="navItem"><a href="#Contact" onClick={() => setActiveNav('#Contact')} className="navLink">Contact</a></li>
+                <li className="navItem"><a href="/" onClick={() => setActiveNav('#home')} className="navLink">Home</a></li>
+                <li className="navItem"><a href="/about" onClick={() => setActiveNav('#about')} className="navLink">About</a></li>
+                <li className="navItem"><a href="/portfolio" onClick={() => setActiveNav('#portfolio')} className="navLink">Portfolio</a></li>
+                <li className="navItem"><a href="/contact" onClick={() => setActiveNav('#contact')} className="navLink">Contact</a></li>
             </ul>
             <div onClick ={hamburgerToggle} className={toggleIcon}>
                 <div className="line1"></div>
