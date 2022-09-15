@@ -13,6 +13,9 @@ function App() {
       <div>
         <Nav></Nav>
         <Switch>
+        <Route path = '/about'>
+          <About />
+        </Route>
         <Route path = '/resume'>
           <Resume />
         </Route>

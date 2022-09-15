@@ -25,7 +25,7 @@ function Nav() {
                 Gabriel Wagner
                 </a>
             <ul className={active}>
-                <li className="navItem"><a href="/" onClick={() => setActiveNav('#about')} className="navLink">About</a></li>
+                <li className="navItem"><a href="/about" onClick={() => setActiveNav('#about')} className="navLink">About</a></li>
                 <li className="navItem"><a href="/resume" onClick={() => setActiveNav('#resume')} className="navLink">Resume</a></li>
                 <li className="navItem"><a href="/portfolio" onClick={() => setActiveNav('#portfolio')} className="navLink">Portfolio</a></li>
                 <li className="navItem"><a href="/contact" onClick={() => setActiveNav('#contact')} className="navLink">Contact</a></li>
