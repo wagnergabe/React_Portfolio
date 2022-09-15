@@ -38,7 +38,8 @@ function Contact() {
 
   return (
     <section>
-      <h1 data="h1">Contact me</h1>
+      <div className='container'>
+      <h1 id="contactTitle">Contact me</h1>
       <div id='container'>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
@@ -58,8 +59,9 @@ function Contact() {
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
+        <button data="button" type="submit">Submit</button>
       </form>
+      </div>
       </div>
     </section>
   );

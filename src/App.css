@@ -22,29 +22,50 @@ a {
   color: #946B2D;
 }
 
-h1 {
-  color: green;
-}
 
 /*Contact Form*/
-#container {
+.container {
+  margin: 0 auto;
+  text-align: center;
   display: flex;
-  justify-content: center;
   align-items: center;
-  position: relative;
-  width: 100%;
-  height: auto;
-  min-height: 600px;
-  padding: 20px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+input {
+  text-align: center;
+}
+
+#contactTitle {
+  color:#946B2D;
+  display: flex;
+  text-align: center;
 }
 
 #contact-form {
-    width: 100%;
-    max-width: 400px;
     padding: 30px 15px;
     border-radius: 4px;
-    background-color: #fff;  
+    background-color: #5d5d5d;
+    border: 4px solid #946B2D;  
 }
+
+label {
+  color:#000863
+}
+
+button {
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.25rem 1rem;
+  border-radius: .5rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 1px;
+}
+
+
 /*Navigation Component*/
 
 .nav{
@@ -162,8 +183,14 @@ h1 {
     flex-direction: column;
     transform: translateX(100%);
     transition: 0.5s ease-in;
+    z-index: 2;
   }
 
+  .footerIcons {
+    justify-content: left;
+    margin-left: 50px;
+    padding-top: 20px;
+  }
   
   }
 
@@ -184,7 +211,3 @@ h1 {
   }
 
   /*animation tutorial source: https://www.youtube.com/watch?v=ZJZVCg2lXSc */
-
-
-
-  
