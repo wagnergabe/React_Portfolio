@@ -16,8 +16,17 @@ const Resume = () => {
     return (
         <div className='container about-page'>
             <div className='text-zone'>
-        <h1> Resume </h1>
-        <p>Soon to be graduate of the University of Minnesota’s Full-Stack Web Development Bootcamp Program</p>
+        <h3> Developer Skills: Full Stack</h3>
+        <ul className='frontEnd'>Front-End</ul>
+          <li>HTML/CSS</li>
+          <li>JavaScript</li>
+          <li>Web/3rd-Party/Server-Side APIs</li>
+          <li>React</li>
+        <ul className='frontEnd'>Back-End</ul>
+          <li>Node.js</li>
+          <li>Express.js</li>
+          <li>SQL</li>
+          <li>MongooDB</li>
         </div>
 
         <div className="stage-cube-cont">
