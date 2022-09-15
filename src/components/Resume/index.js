@@ -11,12 +11,12 @@ import { useEffect } from 'react'
 import './index.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const About = () => {
+const Resume = () => {
 
     return (
         <div className='container about-page'>
             <div className='text-zone'>
-        <h1> About </h1>
+        <h1> Resume </h1>
         <p>Soon to be graduate of the University of Minnesota’s Full-Stack Web Development Bootcamp Program</p>
         </div>
 
@@ -47,6 +47,6 @@ const About = () => {
     )
 }
 
-export default About
+export default Resume
 
 //cube animation Source: https://www.youtube.com/watch?v=bmpI252DmiI&t=737s

@@ -24,7 +24,7 @@ a {
 
 
 /*Contact Form*/
-.container {
+.contactContainer{
   margin: 0 auto;
   text-align: center;
   display: flex;
