@@ -6,6 +6,7 @@ import About from './components/About';
 import Resume from './components/Resume';
 import Contact from './components/Contact';
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Portfolio from './components/Portfolio';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
         </Route>
         <Route path = '/contact'>
           <Contact />
+        </Route>
+        <Route path = '/portfolio'>
+          <Portfolio />
         </Route>
         </Switch>
         <Footer></Footer>

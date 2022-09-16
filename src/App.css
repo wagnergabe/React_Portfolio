@@ -8,6 +8,16 @@ body {
  background: #374798;
 }
 
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  color:#946B2D;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 li {
   list-style: none;
 }
@@ -66,10 +76,10 @@ button {
   position: absolute;
   padding-bottom: 50px;
   margin-left: auto;
-margin-right: auto;
-left: 0;
-right: 0;
-text-align: center;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
 }
 
 .aboutContainer h1 {

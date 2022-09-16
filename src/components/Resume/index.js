@@ -26,7 +26,7 @@ const Resume = () => {
           <li>Node.js</li>
           <li>Express.js</li>
           <li>SQL</li>
-          <li>MongooDB</li>
+          <li>MongoDB</li>
         </div>
 
         <div className="stage-cube-cont">
