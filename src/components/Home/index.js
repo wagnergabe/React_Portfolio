@@ -6,14 +6,16 @@ const Home = () => {
     const container = useRef(null)
             useEffect(() => {
 
-
+                const instance =
                 Lottie.loadAnimation({
                     container: container.current,
                     renderer: 'svg',
                     loop: true,
                     autoplay: true,
                     animationData: require('../../animate.json')
-                })
+                });
+
+                return () => instance.destroy();
             }, [])
 
         return(
@@ -22,3 +24,5 @@ const Home = () => {
         }
 
 export default Home;
+
+//lottie animation source https://www.youtube.com/watch?v=LIoRZZ_va_o
