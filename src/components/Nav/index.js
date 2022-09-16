@@ -21,7 +21,7 @@ function Nav() {
         const [activeNav, setActiveNav] = useState('#')
     return(
         <nav className ='nav'>
-            <a href ="/about" className = "brand">
+            <a href ="/" className = "brand">
                 Gabriel Wagner
                 </a>
             <ul className={active}>

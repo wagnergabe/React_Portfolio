@@ -1,5 +1,6 @@
 
 import './App.css';
+import Home from './components/Home';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import About from './components/About';
@@ -14,6 +15,8 @@ function App() {
       <div>
         <Nav></Nav>
         <Switch>
+          <Route exact path='/' component={ Home } >
+          </Route>
         <Route path = '/about'>
           <About />
         </Route>
