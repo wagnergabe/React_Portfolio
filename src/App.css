@@ -41,6 +41,17 @@ a {
   margin-bottom: 50px;
 }
 
+.portfolioContainer h1 {
+  color:#946B2D;
+  font-family:'Times New Roman', Times, serif;
+  margin: 10px 
+}
+
+.portfolioContainer h3 {
+  color: gray;
+  margin: 5px;
+}
+
 /*Contact Form*/
 .contactContainer{
   margin: 0 auto;
