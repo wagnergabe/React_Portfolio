@@ -30,8 +30,8 @@ function App() {
           <Portfolio />
         </Route>
         </Switch>
-        <Footer></Footer>
       </div>    
+      <Footer></Footer>
     </Router>
   );
 }

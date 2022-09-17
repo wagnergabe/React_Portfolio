@@ -1,40 +1,12 @@
-.about-page {
-    .text-zone {
-        position: absolute;
-        left: 10%;
-        top: 50%;
-        transform: translateY(-50%);
-        width: 35%;
-        vertical-align: middle;
-        display: table-cell;
-        max-height: 90%;
-
-        h3 {
-            font-size: 20px;
-            margin-top: 0;
-            position: relative;
-            margin-bottom: 40px;
-            left: 10px;
-        }
-           
-          
-            p{
-                font-style: 10px;
-                color: white
-
-            }
-    }
-}
-
 .stage-cube-cont {
   width: 50%;
   height: 100%;
-  top: 0;
-  padding-top: 18%;
+  padding-top: 17%;
   margin-left: 0;
   position: absolute;
   right: 0;
-  overflow: hidden;
+  top: 0;
+  z-index: 1;
 }
 
 .cubespinner {

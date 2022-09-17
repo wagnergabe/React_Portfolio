@@ -17,7 +17,7 @@ const Footer = () => {
         <div className="footerIcons">
         <a href="https://github.com/wagnergabe"><FaGithub /></a>
         <a href="https://www.linkedin.com/in/gabriel-wagner-8559b0ab?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BbIotrpX9T5e0qVMGOaVNTA%3D%3D"><BsLinkedin /></a>
-        <a href= "https://stackoverflow.com/users/20016504/gabriel-wagner?tab=profile"><BsStackOverflow /></a>
+        <a href= "https://stackoverflow.com/users/20016504/gabriel-wagner?tab=profile"><BsStackOverflow /> </a>
         </div>
       </div>
 

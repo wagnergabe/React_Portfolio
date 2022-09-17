@@ -124,7 +124,8 @@ img {
   align-items: center;
   justify-content: space-around;
   height: 8vh;
-  background: #000863
+  background: #000863;
+
 }
 
 .brand {
@@ -136,6 +137,7 @@ img {
   align-items: center;
   justify-content: space-around;
   gap: 3rem; 
+  z-index: 2;
 }
 
 .hamburger div {
@@ -144,11 +146,13 @@ img {
   margin: 0.4rem;
   background-color: #946B2D;
   transition: 0.4s ease-in;
+  
 }
 
 .hamburger {
   cursor: pointer;
   display: none;
+  z-index: 2;
   }
 
   /*footer*/

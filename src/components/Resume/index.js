@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 import {
     faNodeJs,
     faCss3Alt,
@@ -54,6 +55,7 @@ const Resume = () => {
         </div>
 
         </div>
+     
     )
 }
 
