@@ -3,9 +3,14 @@
   box-sizing: border-box;
 }
 
+.App {
+  display: flex;
+}
+
 body {
  font-size: 1.6rem; 
  background: #374798;
+ height: 100;
 }
 
 h2 {
@@ -27,8 +32,13 @@ a {
   color: #946B2D;
 }
 
-.container {
+/*Porfolio*/
 
+.portfolioContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 /*Contact Form*/
@@ -76,12 +86,6 @@ button {
 /*About Component*/
 
 .aboutContainer {
-  position: absolute;
-  padding-bottom: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  left: 0;
-  right: 0;
   text-align: center;
 }
 
@@ -138,12 +142,11 @@ img {
 
   /*footer*/
   footer {
-    background:#374798;
-    text-align: center;
+    background:transparent;
     font-size: 2.0rem;
-    margin-top: 6rem;
     width: 100%;
-  }
+    position: relative;
+    }
 
   iconActive {
     color:#374798;
@@ -153,27 +156,12 @@ img {
     color: var(--color-bg);
   }
   
-  .footer__logo {
-    font-size: 2rem;
-    font-weight: 500;
-    margin-bottom: 2rem;
-    display: inline-block;
-  }
-  
-  .permalinks {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-    margin: 0 auto 3rem;
-  }
   
   .footerIcons {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    position: absolute;
-    bottom: 0;
+    position: relative;
     width: 100%;
   }
   
@@ -190,16 +178,6 @@ img {
     border-color:#946B2D
   }
   
-  /* .footerCopyright {
-    margin-bottom: 10rem;
-    color: black;
-    position: fixed;
-    bottom: 0;
-    width: 100%
-  } */
-
-
-  /*Screen sizes*/
 
 @media screen and (max-width: 768px) {
   .hamburger {
@@ -216,12 +194,6 @@ img {
     transform: translateX(100%);
     transition: 0.5s ease-in;
     z-index: 2;
-  }
-
-  .footerIcons {
-    justify-content: right;
-    margin-right: 50px;
-    padding-top: 20px;
   }
   
   }

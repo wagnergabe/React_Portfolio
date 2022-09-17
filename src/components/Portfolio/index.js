@@ -1,6 +1,7 @@
 import React from "react";
 import Thingswanted from '../../images/things-wanted.png'
 import furpets from '../../images/furPets.png'
+import jate from '../../images/Jate.png'
 
 const Portfolio = () => {
     return (
@@ -17,6 +18,10 @@ const Portfolio = () => {
             <h3>Run Buddy</h3>
             <a href="https://lernantino.github.io/run-buddy/"> 
                 <img src = {furpets} />
+            </a>
+            <h3>Just Another Text Editor</h3>
+            <a href="https://gabrielwagnerpwa.herokuapp.com/">
+                <img src = {jate} />
             </a>
         </div>
     )
