@@ -17,17 +17,17 @@ function App() {
         <Switch>
           <Route exact path='/' component={ Home } >
           </Route>
-        <Route path = '/about'>
-          <About />
+        <Route path  = '/about' component={ About }>
+    
         </Route>
-        <Route path = '/resume'>
-          <Resume />
+        <Route path = '/resume' component={ Resume }>
+        
         </Route>
-        <Route path = '/contact'>
-          <Contact />
+        <Route path = '/contact' component = { Contact } >
+          
         </Route>
-        <Route path = '/portfolio'>
-          <Portfolio />
+        <Route path = '/portfolio' component= { Portfolio }>
+          
         </Route>
         </Switch>
       </div>    
