@@ -1,4 +1,5 @@
 import React from 'react'
+import GWresume from '../../assets/Gabe Wagner resume.pdf'
 
 
 import {
@@ -30,6 +31,9 @@ const Resume = () => {
           <li>SQL</li>
           <li>MongoDB</li>
         </div>
+        <ul className='resumefile'><br></br>
+        <a href={GWresume}>Resume</a>
+        </ul>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
