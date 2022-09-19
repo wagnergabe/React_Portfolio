@@ -15,8 +15,7 @@ function App() {
       <div>
         <Nav></Nav>
         <Switch>
-          <Route exact path='/' component={ Home } >
-          </Route>
+        
         <Route path  = '/about' component={ About }>
     
         </Route>
@@ -27,8 +26,11 @@ function App() {
           
         </Route>
         <Route path = '/portfolio' component= { Portfolio }>
+          </Route>
           
-        </Route>
+        <Route path='/' component={ Home } >
+
+          </Route>
         </Switch>
       </div>    
       <Footer></Footer>
