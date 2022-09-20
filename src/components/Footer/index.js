@@ -3,7 +3,6 @@ import { FaGithub } from 'react-icons/fa'
 import { BsLinkedin } from 'react-icons/bs'
 import { BsStackOverflow } from 'react-icons/bs'
 
-
 const Footer = () => {
     const [active, setActive] = useState('iconActive')
     const iconView = () => {

@@ -1,232 +1,224 @@
 * {
-  margin: 0;
-  box-sizing: border-box;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 .App {
-  display: flex;
+	display: flex;
 }
 
 body {
- font-size: 1.6rem; 
- background: #374798;
- height: 100;
+	font-size: 1.6rem;
+	background: #374798;
+	height: 100;
 }
 
 h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  min-height: 100vh;
-  color:#946B2D;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+	color: #946b2d;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 li {
-  list-style: none;
+	list-style: none;
 }
 
 a {
-  text-decoration: none;
-  color: #946B2D;
+	text-decoration: none;
+	color: #946b2d;
 }
 
 /*Porfolio*/
 
 .portfolioContainer {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-bottom: 50px;
 }
 
 .portfolioContainer h1 {
-  color:#946B2D;
-  font-family:'Times New Roman', Times, serif;
-  margin: 10px 
+	color: #946b2d;
+	font-family: 'Times New Roman', Times, serif;
+	margin: 10px;
 }
 
 .portfolioContainer h3 {
-  color: gray;
-  margin: 5px;
+	color: gray;
+	margin: 5px;
 }
 
 /*Contact Form*/
-.contactContainer{
-  margin: 0 auto;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  flex-direction: column;
+.contactContainer {
+	margin: 0 auto;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-direction: column;
 }
 
 input {
-  text-align: center;
+	text-align: center;
 }
 
 #contactTitle {
-  color:#946B2D;
-  display: flex;
-  text-align: center;
+	color: #946b2d;
+	display: flex;
+	text-align: center;
 }
 
 #contact-form {
-    padding: 30px 15px;
-    border-radius: 4px;
-    background-color: #5d5d5d;
-    border: 4px solid #946B2D;  
+	padding: 30px 15px;
+	border-radius: 4px;
+	background-color: #5d5d5d;
+	border: 4px solid #946b2d;
 }
 
 label {
-  color:#000863
+	color: #000863;
 }
 
 button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
+	font-size: 1rem;
+	text-decoration: none;
+	padding: 0.25rem 1rem;
+	border-radius: 0.5rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	margin: 0 1px;
 }
 
 /*About Component*/
 
 .aboutContainer {
-  text-align: center;
+	text-align: center;
 }
 
 .aboutContainer h1 {
-  text-align: center;
+	text-align: center;
 }
-
 
 img {
-  max-width: 25%;
-  border:#946B2D solid 6px;
-  align-items: center;
+	max-width: 25%;
+	border: #946b2d solid 6px;
+	align-items: center;
 }
-
 
 .aboutText {
-  text-align: center;
+	text-align: center;
 }
-
 
 /*Navigation Component*/
 
-.nav{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  height: 8vh;
-  background: #000863;
-
+.nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	height: 8vh;
+	background: #000863;
 }
 
 .brand {
-  text-transform: uppercase;
+	text-transform: uppercase;
 }
 
 .navMenu {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  gap: 3rem; 
-  z-index: 2;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 3rem;
+	z-index: 2;
 }
 
 .hamburger div {
-  width: 2.5rem;
-  height: 0.2rem;
-  margin: 0.4rem;
-  background-color: #946B2D;
-  transition: 0.4s ease-in;
-  
+	width: 2.5rem;
+	height: 0.2rem;
+	margin: 0.4rem;
+	background-color: #946b2d;
+	transition: 0.4s ease-in;
 }
 
 .hamburger {
-  cursor: pointer;
-  display: none;
-  z-index: 2;
-  }
+	cursor: pointer;
+	display: none;
+	z-index: 2;
+}
 
-  /*footer*/
-  footer {
-    background:transparent;
-    font-size: 2.0rem;
-    width: 100%;
-    position: relative;
-    }
+/*footer*/
+footer {
+	background: transparent;
+	font-size: 2rem;
+	width: 100%;
+	position: relative;
+}
 
-  iconActive {
-    color:#374798;
-  }
-  
-  footer a {
-    color: var(--color-bg);
-  }
-  
-  
-  .footerIcons {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    position: relative;
-    width: 100%;
-  }
-  
-  .footerIcons a {
-    padding: 0.8rem;
-    border-radius: 0.5rem;
-    display: flex;
-    border: 2px solid transparent;
-  }
-  
-  .footerIcons a:hover {
-    background: transparent;
-    color: var(--color-bg);
-    border-color:#946B2D
-  }
-  
+iconActive {
+	color: #374798;
+}
+
+footer a {
+	color: var(--color-bg);
+}
+
+.footerIcons {
+	display: flex;
+	justify-content: center;
+	gap: 1rem;
+	position: relative;
+	width: 100%;
+}
+
+.footerIcons a {
+	padding: 0.8rem;
+	border-radius: 0.5rem;
+	display: flex;
+	border: 2px solid transparent;
+}
+
+.footerIcons a:hover {
+	background: transparent;
+	color: var(--color-bg);
+	border-color: #946b2d;
+}
 
 @media screen and (max-width: 768px) {
-  .hamburger {
-    display: block;
-  }
-  .navMenu {
-    position: fixed;
-    top: 7vh;
-    right: 0;
-    width: 50%;
-    height: 93vh;
-    background: #000863;
-    flex-direction: column;
-    transform: translateX(100%);
-    transition: 0.5s ease-in;
-    z-index: 2;
-  }
-  
-  }
+	.hamburger {
+		display: block;
+	}
+	.navMenu {
+		position: fixed;
+		top: 7vh;
+		right: 0;
+		width: 50%;
+		height: 93vh;
+		background: #000863;
+		flex-direction: column;
+		transform: translateX(100%);
+		transition: 0.5s ease-in;
+		z-index: 2;
+	}
+}
 
-  .navActive {
-    transform: translateX(0);
-  }
+.navActive {
+	transform: translateX(0);
+}
 
-  /* Toggler animation */
+/* Toggler animation */
 
-  .toggle .line1{
-    transform: rotate(-45deg) translate(-8px, 4px);
-  }
-  .toggle .line2{
-    opacity: 0;
-  }
-  .toggle .line3{
-    transform: rotate(45deg) translate(-8px, -4px);
-  }
+.toggle .line1 {
+	transform: rotate(-45deg) translate(-8px, 4px);
+}
+.toggle .line2 {
+	opacity: 0;
+}
+.toggle .line3 {
+	transform: rotate(45deg) translate(-8px, -4px);
+}
 
-  /*animation tutorial source: https://www.youtube.com/watch?v=ZJZVCg2lXSc */
+/*animation tutorial source: https://www.youtube.com/watch?v=ZJZVCg2lXSc */

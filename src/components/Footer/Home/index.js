@@ -9,7 +9,7 @@ const Home = () => {
 			renderer: 'svg',
 			loop: true,
 			autoplay: true,
-			animationData: require('../../animate.json'),
+			animationData: require('../../../animate.json'),
 		});
 
 		return () => instance.destroy();
