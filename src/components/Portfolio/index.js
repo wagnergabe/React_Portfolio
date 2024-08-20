@@ -1,41 +1,53 @@
 import React from "react";
-import Thingswanted from '../../images/things-wanted.png'
-import furpets from '../../images/furPets.png'
-import jate from '../../images/Jate.png'
-import pizzaHunt from '../../images/pizzaHunt.jpg'
-import workday from '../../images/Workday.png'
-import quiz from '../../images/quiz.jpg'
+import gamer_fit from "../../images/gamer_fit.png";
+import project_luna from "../../images/ProjectLuna.png";
+import tictactoe from "../../images/tictactoe.png";
+import asteroid from '../../images/asteroid.png';
+import invest from '../../images/invest.png';
 
 const Portfolio = () => {
-    return (
-        <div className='portfolioContainer'>
-            <h1> Portfolio</h1>
-            <h3>Things Wanted</h3>
-            <a href="https://shielded-mountain-23922.herokuapp.com/login">
-                <img src={Thingswanted} />
-            </a>
-            <h3>Furever Pets</h3>
-            <a href="https://wagnergabe.github.io/Group-Project-1/">
-                <img src = {furpets} />
-            </a>
-            <h3>Pizza Hunt</h3>
-            <a href="https://pizzahunt-bootcamp.herokuapp.com/"> 
-                <img src = {pizzaHunt} />
-            </a>
-            <h3>Just Another Text Editor</h3>
-            <a href="https://gabrielwagnerpwa.herokuapp.com/">
-                <img src = {jate} />
-            </a>
-            <h3>Work Day Scheduler</h3>
-            <a href="https://wagnergabe.github.io/UMN-Challenge-5/">
-                <img src = {workday} />
-            </a>
-            <h3>JavaScript Quiz</h3>
-            <a href="https://wagnergabe.github.io/code-quiz/">
-                <img src = {quiz} />
-            </a>
+  return (
+    <>
+      <div className="portfolioContainer">
+        <div className="project">
+          <h3>Gamer Fit</h3>
+          <a href="https://gamer-fit-99cedda4f183.herokuapp.com/login">
+            <img src={gamer_fit} />
+          </a>
         </div>
-    )
-}
+
+        <div className="project">
+          <h3>Project Luna</h3>
+          <a href="https://sensational-pie-31bfc4.netlify.app/">
+            <img src={project_luna} />
+          </a>
+        </div>
+
+        <div className="project">
+          <h3>React Tic-Tac-Toe</h3>
+          <a href="https://wonderful-genie-b0f041.netlify.app/">
+            <img src={tictactoe} />
+          </a>
+        </div>
+
+        <div className="project">
+            <h3>Kitty Asteroid</h3>
+            <a href="https://github.com/wagnergabe/kitty_astroid">\
+            <img src={asteroid} />
+            </a>
+        </div>        
+
+        
+        <div className="project">
+            <h3>Investment Calculator</h3>
+            <a href="https://lambent-rabanadas-6b6b9b.netlify.app/">
+            <img src={invest} />
+            </a>
+        </div>        
+
+      </div>
+    </>
+  );
+};
 
 export default Portfolio;

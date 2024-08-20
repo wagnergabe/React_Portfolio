@@ -1,69 +1,23 @@
 import React, { useState } from 'react';
-import { validateEmail } from '../../utils/helpers';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
+
+
 
 function Contact() {
-  const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-
-  const [errorMessage, setErrorMessage] = useState('');
-  const { name, email, message } = formState;
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    if (!errorMessage) {
-      console.log('Submit Form', formState);
-    }
-  };
-
-  const handleChange = (e) => {
-    if (e.target.name === 'email') {
-      const isValid = validateEmail(e.target.value);
-      if (!isValid) {
-        setErrorMessage('Your email is invalid.');
-      } else {
-        setErrorMessage('');
-      }
-    } else {
-      if (!e.target.value.length) {
-        setErrorMessage(`${e.target.name} is required.`);
-      } else {
-        setErrorMessage('');
-      }
-    }
-    if (!errorMessage) {
-      setFormState({ ...formState, [e.target.name]: e.target.value });
-      console.log('Handle Form', formState);
-    }
-  };
 
   return (
-    <section>
-      <div className='contactContainer'>
-      <h1 id="contactTitle">Contact me</h1>
-      <div id='container'>
-      <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
-          <label htmlFor="name">Name:</label>
-          <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="email">Email address:</label>
-          <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
-        </div>
-        <div>
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
-        </div>
-        {errorMessage && (
-          <div>
-            <p className="error-text">{errorMessage}</p>
-          </div>
-        )}
-        <button data="button" type="submit">Submit</button>
-      </form>
+    <>
+    <div className = "contact-container">
+      <ul>
+      <li><FontAwesomeIcon icon={faEnvelope}/><a href="mailto:wagner.s.gabriel@gmail.com">Email</a></li>
+      <li><FontAwesomeIcon icon={faLinkedin}/><a href="www.linkedin.com/in/gabriel-wagner-8559b0ab">LinkedIn</a></li>
+      <li><FontAwesomeIcon icon={faGithub}/><a href="https://github.com/wagnergabe">Github</a></li>
+      </ul>
       </div>
-      </div>
-    </section>
-  );
+    </>
+  )
 }
 
 export default Contact;
