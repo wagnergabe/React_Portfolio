@@ -1,21 +1,19 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.c60c2479.css",
-    "main.js": "/react-portfolio/static/js/main.bf2a7e94.js",
-    "static/media/furPets.png": "/react-portfolio/static/media/furPets.759a1fb23fd32fc7d2ea.png",
-    "static/media/pizzaHunt.jpg": "/react-portfolio/static/media/pizzaHunt.b65129fdd0cff6abc94d.jpg",
-    "static/media/Gabe Wagner resume.pdf": "/react-portfolio/static/media/Gabe Wagner resume.5c0ffa96905eec74ac82.pdf",
-    "static/media/Workday.png": "/react-portfolio/static/media/Workday.214c4c70b36cf256d0de.png",
+    "main.css": "/react-portfolio/static/css/main.20aada60.css",
+    "main.js": "/react-portfolio/static/js/main.909f39d6.js",
+    "static/media/gamer_fit.png": "/react-portfolio/static/media/gamer_fit.4e18911f49ff5acdff7e.png",
+    "static/media/ProjectLuna.png": "/react-portfolio/static/media/ProjectLuna.8bc325dd54fe5e08ab9f.png",
+    "static/media/invest.png": "/react-portfolio/static/media/invest.1cbefe44ba7d6a9b293b.png",
     "static/media/Oyamu.jpg": "/react-portfolio/static/media/Oyamu.c44a61e823c4c252345e.jpg",
-    "static/media/quiz.jpg": "/react-portfolio/static/media/quiz.60da16e2036c06afc8f2.jpg",
-    "static/media/Jate.png": "/react-portfolio/static/media/Jate.63d3b10ddaed4eba6111.png",
-    "static/media/things-wanted.png": "/react-portfolio/static/media/things-wanted.8ecec54ef2adfab52915.png",
+    "static/media/asteroid.png": "/react-portfolio/static/media/asteroid.9c1fe49f051be00237ee.png",
+    "static/media/tictactoe.png": "/react-portfolio/static/media/tictactoe.b682f4dc405eca01b9cb.png",
     "index.html": "/react-portfolio/index.html",
-    "main.c60c2479.css.map": "/react-portfolio/static/css/main.c60c2479.css.map",
-    "main.bf2a7e94.js.map": "/react-portfolio/static/js/main.bf2a7e94.js.map"
+    "main.20aada60.css.map": "/react-portfolio/static/css/main.20aada60.css.map",
+    "main.909f39d6.js.map": "/react-portfolio/static/js/main.909f39d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.c60c2479.css",
-    "static/js/main.bf2a7e94.js"
+    "static/css/main.20aada60.css",
+    "static/js/main.909f39d6.js"
   ]
 }
