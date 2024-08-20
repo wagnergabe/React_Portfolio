@@ -1,3 +1,5 @@
+
+
 * {
 	margin: 0;
 	box-sizing: border-box;
@@ -11,6 +13,7 @@ body {
 	font-size: 1.6rem;
 	background: #374798;
 	height: 100;
+	font-family: 'Lato', sans-serif;
 }
 
 h2 {
@@ -30,6 +33,7 @@ li {
 a {
 	text-decoration: none;
 	color: #946b2d;
+	
 }
 
 /*Porfolio*/
@@ -38,7 +42,7 @@ a {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	margin-bottom: 50px;
+	margin: 20px;
 }
 
 .portfolioContainer h1 {
@@ -48,50 +52,54 @@ a {
 }
 
 .portfolioContainer h3 {
-	color: gray;
-	margin: 5px;
+	color: #D3D3D3;
+	padding: 10px;
+}
+
+.project {
+	margin: 20px 0;
+}
+
+.project img {
+	width: 800px;
+	height: 600px;
+	object-fit: cover;
+	box-shadow: 0  4px 8px rgba(0.0.0.0.3);
+	border-radius: 6px;
+	border: 5px solid #946b2d;
+	transition: filter 0.3s ease;
+}
+
+.project:hover img  {
+	filter: brightness(1.2)
 }
 
 /*Contact Form*/
-.contactContainer {
-	margin: 0 auto;
-	text-align: center;
+.contact-container {
 	display: flex;
-	align-items: center;
-	justify-content: space-around;
-	flex-direction: column;
-}
-
-input {
+	justify-content: center;
+	width: 100%;
+	height: 100vh;
+	margin-top: 40px;
 	text-align: center;
 }
 
-#contactTitle {
-	color: #946b2d;
-	display: flex;
-	text-align: center;
+.contact-container li  {
+	font-size: 5rem;
+	padding: 3px;
 }
 
-#contact-form {
-	padding: 30px 15px;
-	border-radius: 4px;
-	background-color: #5d5d5d;
-	border: 4px solid #946b2d;
+.contact-container a {
+	margin: 10px;
 }
 
-label {
-	color: #000863;
+.contact-container a:hover {
+	color: #0073b1;
 }
 
-button {
-	font-size: 1rem;
-	text-decoration: none;
-	padding: 0.25rem 1rem;
-	border-radius: 0.5rem;
-	border: none;
-	outline: none;
-	cursor: pointer;
-	margin: 0 1px;
+.contact-container svg {
+	font-size: 4rem;
+	margin-right: 8px;
 }
 
 /*About Component*/
@@ -102,16 +110,21 @@ button {
 
 .aboutContainer h1 {
 	text-align: center;
+	margin: 10px;
+	color: #946b2d;
 }
 
-img {
-	max-width: 25%;
-	border: #946b2d solid 6px;
-	align-items: center;
+.aboutContainer img {
+	border-radius: 5px;
+	border: 4px solid #9462bd;
 }
 
-.aboutText {
+
+
+.aboutContainer p{
 	text-align: center;
+	font-size: 2rem;
+	margin: 3px;
 }
 
 /*Navigation Component*/
