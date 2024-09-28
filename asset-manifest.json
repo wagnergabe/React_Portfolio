@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.20aada60.css",
-    "main.js": "/react-portfolio/static/js/main.909f39d6.js",
+    "main.js": "/react-portfolio/static/js/main.6b4c8c28.js",
     "static/media/gamer_fit.png": "/react-portfolio/static/media/gamer_fit.4e18911f49ff5acdff7e.png",
+    "static/media/cookies.png": "/react-portfolio/static/media/cookies.135cbe496a86dc349ece.png",
     "static/media/ProjectLuna.png": "/react-portfolio/static/media/ProjectLuna.8bc325dd54fe5e08ab9f.png",
     "static/media/invest.png": "/react-portfolio/static/media/invest.1cbefe44ba7d6a9b293b.png",
     "static/media/Oyamu.jpg": "/react-portfolio/static/media/Oyamu.c44a61e823c4c252345e.jpg",
@@ -10,10 +11,10 @@
     "static/media/tictactoe.png": "/react-portfolio/static/media/tictactoe.b682f4dc405eca01b9cb.png",
     "index.html": "/react-portfolio/index.html",
     "main.20aada60.css.map": "/react-portfolio/static/css/main.20aada60.css.map",
-    "main.909f39d6.js.map": "/react-portfolio/static/js/main.909f39d6.js.map"
+    "main.6b4c8c28.js.map": "/react-portfolio/static/js/main.6b4c8c28.js.map"
   },
   "entrypoints": [
     "static/css/main.20aada60.css",
-    "static/js/main.909f39d6.js"
+    "static/js/main.6b4c8c28.js"
   ]
 }
